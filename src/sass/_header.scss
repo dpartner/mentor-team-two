@@ -1,3 +1,46 @@
 header {
   background-color: aqua;
 }
+.link {
+  text-decoration: none;
+}
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.header {
+  background: #ffffff;
+  box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.05);
+  border-radius: 0px;
+}
+.header-title {
+  // font-family: Roboto;
+  // font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.64;
+  text-align: center;
+  letter-spacing: 0.10998px;
+  color: #ffffff;
+  background: #161f49;
+}
+.header-nav {
+  display: flex;
+}
+.header-subtitle {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 1.39;
+  text-align: center;
+  letter-spacing: 0.10998px;
+  color: #404040;
+}
+.header-shop {
+  width: 166px;
+  height: 88px;
+  background: #2468ff;
+  border-radius: 0px;
+}

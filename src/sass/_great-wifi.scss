@@ -1,0 +1,27 @@
+.great-wifi__title {
+  display: block;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 123px;
+}
+.menu-list {
+  display: flex;
+  margin-bottom: 34px;
+}
+.menu__item {
+  margin-right: 30px;
+}
+.menu__item:last-child {
+  margin-right: 0;
+}
+.great-wifi__container {
+  display: flex;
+}
+.great-wifi__wrap {
+  padding-left: 90px;
+  padding-right: 90px;
+}
+.great-wifi__text {
+  margin-bottom: 28px;
+}

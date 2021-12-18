@@ -1,3 +1,86 @@
-.explore {
-  background-color: tomato;
+.container {
+  width: 1265px;
+  margin: 0 auto;
 }
+
+.link {
+  text-decoration: none;
+  display: block;
+  outline: none;
+}
+
+.explore__link {
+  margin-bottom: 28px;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin-right: 0;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.explore__pre-text {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.17;
+  text-align: center;
+  color: #404040;
+  margin-bottom: 21px;
+}
+
+.explore__shop {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.14;
+  text-align: center;
+  text-transform: uppercase;
+  color: #404040;
+  text-decoration: underline;
+  margin-bottom: 120px;
+}
+
+.explore__title {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 1.2;
+  text-align: center;
+  color: #404040;
+  margin-bottom: 44px;
+}
+
+.explore__text {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.4;
+  text-align: center;
+  color: #404040;
+  margin-bottom: 78px;
+}
+
+.explore__button {
+  display: block;
+  min-width: 244px;
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1;
+  text-align: center;
+  letter-spacing: 0.11px;
+  text-transform: uppercase;
+  color: #ffffff;
+  background-color: #2468ff;
+  border: 1px solid transparent;
+}
+
+// .explore {
+//   background-color: tomato;
+// }

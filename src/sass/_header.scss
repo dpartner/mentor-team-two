@@ -14,7 +14,7 @@ header {
   box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.05);
   border-radius: 0px;
 }
-.header-title {
+.header__title {
   // font-family: Roboto;
   // font-style: normal;
   font-weight: normal;
@@ -25,10 +25,14 @@ header {
   color: #ffffff;
   background: #161f49;
 }
-.header-nav {
+.header__box {
+  display: flex;
+  align-items: center;
+}
+.header__nav {
   display: flex;
 }
-.header-subtitle {
+.header__subtitle {
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
@@ -38,9 +42,18 @@ header {
   letter-spacing: 0.10998px;
   color: #404040;
 }
-.header-shop {
-  width: 166px;
-  height: 88px;
+.header__shop {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.79;
+  text-align: center;
+  letter-spacing: 0.10998px;
+  text-transform: uppercase;
+  color: #ffffff;
   background: #2468ff;
   border-radius: 0px;
+  width: 166px;
+  height: 80px;
 }

@@ -25,6 +25,12 @@
 }
 .great-wifi__benefit {
   margin-bottom: 28px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 1.44;
+  color: #404040;
 }
 .button-shop {
   min-width: 243px;
@@ -55,4 +61,12 @@
   height: 4px;
   background: #dedede;
   border-radius: 2px;
+}
+.great-wifi__text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 25px;
+
+  color: #646565;
 }

@@ -1,0 +1,27 @@
+footer {
+  background-color: rgba(22, 31, 73, 1);
+  position: relative;
+  padding-top: 90px;
+  padding-bottom: 188px;
+}
+
+.footer__container {
+  display: flex;
+  margin-right: -92px;
+}
+
+.footer__logo-link {
+  display: inline-block;
+  margin-bottom: 60px;
+}
+
+.footer__list-links {
+  margin-right: 92px;
+  list-style: none;
+}
+
+.footer__links {
+  font-size: 17px;
+  line-height: 25px;
+  color: #ffffff;
+}

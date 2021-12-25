@@ -1,3 +1,14 @@
+.experts{
+    width: 100%;
+    padding-top: 117px;
+    padding-bottom: 120px;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
 .experts-title{
     font-size: 50px;
     line-height: 1.2;
@@ -12,8 +23,28 @@
     color: #404040;
 }
 
+.experts__btn{
+    display: block;
+    align-items: center;
+    width: 220px;
+    height: 52px;
+    background: #2468FF;
+    border-radius: 0px;
+
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 1.08;
+    text-align: center;
+    letter-spacing: 0.11px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
 .experts__list{
     list-style: none;
+
+    display: flex;
+    justify-content: space-between;
 }
 
 .experts__btn{

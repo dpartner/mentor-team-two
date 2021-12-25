@@ -24,6 +24,7 @@
   padding-right: 90px;
 }
 .great-wifi__benefit {
+  width: 540px;
   margin-bottom: 28px;
   font-family: Roboto;
   font-style: normal;
@@ -45,15 +46,27 @@
   background-color: #2468ff;
 }
 .great-wifi__link {
+  text-decoration: none;
   position: relative;
   display: block;
   text-decoration: none;
   padding-top: 8px;
   padding-bottom: 8px;
-  color: #999999;
-  border-bottom: 1px solid #dedede;
-}
 
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  text-transform: uppercase;
+  border-bottom: 2px solid #dedede;
+
+  color: #999999;
+}
+.great-wifi__link.active {
+  color: #2468ff;
+  border-bottom: 2px solid #2468ff;
+}
 .great-wifi__text {
   font-style: normal;
   font-weight: normal;

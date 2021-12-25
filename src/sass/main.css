@@ -1,4 +1,21 @@
-.eero-title{
+@charset "UTF-8";
+/*
+ * Главный файл стилей.
+ * Все паршалы подключаются сюда.
+ */
+header {
+  background-color: aqua;
+}
+
+.hero {
+  background-color: lightblue;
+}
+
+.explore {
+  background-color: tomato;
+}
+
+.eero-title {
   position: absolute;
   clip: rect(0 0 0 0);
   width: 1px;
@@ -7,28 +24,37 @@
   border: 0;
   padding: 0;
 }
+
 .eero-system {
-  background-image: (url "../images/Rectangle.png";
+  background-image: url();
   width: 1440px;
   height: 1179px;
-  padding-right:188px;
+  padding-right: 188px;
   padding-left: 188px;
   padding-top: 580px;
   margin-left: auto;
   margin-right: auto;
 }
-.eero-list{
+
+.eero-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   list-style: none;
 }
-.eero-list-item{
+
+.eero-list-item {
   width: 424px;
 }
-.link-compare{
+
+.link-compare {
   text-align: center;
 }
-.wi-fi-6{
+
+.wi-fi-6 {
   background: #FFFFFF;
   border-radius: 18px;
   font-style: normal;
@@ -40,14 +66,16 @@
   width: 81px;
   height: 21px;
 }
-.eero-version{
+
+.eero-version {
   font-style: normal;
   font-weight: normal;
   font-size: 36px;
   line-height: 44px;
   color: #FFFFFF;
 }
-.eero-exp{
+
+.eero-exp {
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
@@ -55,7 +83,8 @@
   line-height: 48px;
   color: #FFFFFF;
 }
-.eero-about{
+
+.eero-about {
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
@@ -63,7 +92,8 @@
   line-height: 25px;
   color: #FFFFFF;
 }
-.eero-price{
+
+.eero-price {
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
@@ -71,3 +101,24 @@
   line-height: 25px;
   color: #FFFFFF;
 }
+
+.qote-section {
+  background-color: #3bd13b;
+}
+
+.wifi-potential-section {
+  background-color: #6969f8;
+}
+
+.conecthome-section {
+  background-color: #c4106a;
+}
+
+.covers-section {
+  background-color: #f0d24e;
+}
+
+.benefits-section {
+  background-color: #0cbd88;
+}
+/*# sourceMappingURL=main.css.map */

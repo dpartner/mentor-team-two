@@ -62,10 +62,10 @@ header {
   background-color: lightblue;
 }
 
+
 .hero {
   padding: auto;
 }
-
 .container {
   width: 1265px;
   margin: 0 auto;
@@ -322,6 +322,7 @@ img {
 }
 
 .great-wifi__benefit {
+
   margin-bottom: 28px; 
   font-family: Roboto;
   font-style: normal;
@@ -329,7 +330,6 @@ img {
   font-size: 36px;
   line-height: 1.44;
   color: #404040;
-
 }
 
 .button-shop {

@@ -24,7 +24,14 @@
   padding-right: 90px;
 }
 .great-wifi__benefit {
+  width: 540px;
   margin-bottom: 28px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 1.44;
+  color: #404040;
 }
 .button-shop {
   min-width: 243px;
@@ -39,20 +46,30 @@
   background-color: #2468ff;
 }
 .great-wifi__link {
+  text-decoration: none;
   position: relative;
   display: block;
   padding-top: 8px;
   padding-bottom: 8px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  text-transform: uppercase;
+  border-bottom: 2px solid #dedede;
+
+  color: #999999;
 }
-.great-wifi__link::after {
-  position: absolute;
-  content: '';
-  margin-top: 0;
-  left: 0;
-  bottom: -1px;
-  display: inline-block;
-  width: 100%;
-  height: 4px;
-  background: #dedede;
-  border-radius: 2px;
+.great-wifi__link.active {
+  color: #2468ff;
+  border-bottom: 2px solid #2468ff;
+}
+.great-wifi__text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 25px;
+
+  color: #646565;
 }

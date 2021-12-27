@@ -5,6 +5,14 @@
 
 // Стили для файла с примером HTML-фрагмента
 
+// *************UTILS*************
+@import './utils/modern-normalize';
+@import './utils/variables';
+@import './utils/reset';
+@import './utils/visually-hidden';
+@import './utils/base';
+
+// *************COMPONENTS*************
 @import './header';
 @import './hero';
 @import './explore';

@@ -3,4 +3,4 @@ parcelRequire=function(e,r,t,n){var i,o="function"==typeof parcelRequire&&parcel
 },{"./../images/stay_connected.jpg":[["stay_connected.20f77c98.jpg","FEzo"],"FEzo"]}],"Focm":[function(require,module,exports) {
 "use strict";require("./sass/main.scss");
 },{"./sass/main.scss":"clu1"}]},{},["Focm"], null)
-//# sourceMappingURL=/mentor-team-two/src.005de913.js.map
+//# sourceMappingURL=/mentor-team-two/src.204bcef9.js.map

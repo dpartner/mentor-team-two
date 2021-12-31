@@ -2,11 +2,11 @@
 
 body {
   font-family: Roboto, sans-serif;
-  color: #404040;
+  color: var(--text-color);
   font-weight: 400;
   font-size: 18px;
   line-height: 1.4;
-  background: #e5e5e5;
+  background: var(--body-background);
 }
 
 .title {

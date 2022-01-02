@@ -1,3 +1,63 @@
-.wifi-potential-section {
-  background-color: var(--brand-color);
+.wifi-potential {
+  // background-color: var(--brand-color);
+}
+
+.wifi-potential__container {
+  padding: 170px 353px 70px 353px;
+  background-image: url('../images/wifi-potential.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+}
+
+.wifi-potential__icon-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 60px;
+}
+
+.wifi-potential__icon-item {
+  width: 80px;
+  height: 80px;
+  display: flex;
+  fill: none;
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
+  &:hover {
+    fill: var(--icon-hover-color);
+  }
+}
+
+.wifi-potential__heading {
+  font-weight: 400;
+  color: var(--alternative-text-color);
+}
+
+.wifi-potential__description {
+  margin-bottom: 120px;
+  font-size: 18px;
+  line-height: 1.4;
+  color: var(--alternative-text-color);
+}
+
+.wifi-potential__button {
+  margin-bottom: 70px;
+}
+
+.wifi-potential__squares-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wifi-potential__squares {
+  width: 8px;
+  height: 8px;
+  background-color: var(--alternative-text-color);
+  &:not(:last-child) {
+    margin-right: 10px;
+  }
 }

@@ -1,4 +1,16 @@
-.eero-title {
+.eero {
+  background-image: url(../images/eero.jpg);
+  width: 1440px;
+  height: 100%;
+  padding-top: 580px;
+  // padding-left: 173px;
+  padding-bottom: 85px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.eero__box {
+}
+.eero__title {
   position: absolute;
   clip: rect(0 0 0 0);
   width: 1px;
@@ -7,67 +19,113 @@
   border: 0;
   padding: 0;
 }
-.eero-system {
-  background-color: rebeccapurple;
-  width: 1440px;
-  height: 1179px;
-  padding-right: 188px;
-  padding-left: 188px;
-  padding-top: 580px;
-  margin-left: auto;
-  margin-right: auto;
-}
-.eero-list {
+.eero__list {
   display: flex;
   justify-content: space-between;
-  list-style: none;
+  align-items: baseline;
+  margin-left: 185px;
+  // flex-basis: calc(100% / 2);
 }
-.eero-list-item {
-  width: 424px;
+.eero__item {
+  display: inline;
 }
-.link-compare {
-  text-align: center;
+.eero__block-first {
+  margin-right: 240px;
 }
-.wi-fi-6 {
-  background: #ffffff;
-  border-radius: 18px;
+.eero__block-second {
+}
+.eero__wi-fi-6 {
   font-style: normal;
   font-weight: bold;
   font-size: 16px;
   line-height: 21px;
   text-transform: uppercase;
   color: #000000;
+  display: inline-block;
+  margin-bottom: 16px;
   width: 81px;
-  height: 21px;
+  background: #ffffff;
+  border-radius: 18px;
+  text-align: center;
 }
-.eero-version {
+.eero__version {
   font-style: normal;
   font-weight: normal;
   font-size: 36px;
   line-height: 44px;
   color: #ffffff;
+  display: flex;
+  margin-bottom: 13px;
 }
-.eero-exp {
-  font-family: Roboto;
+.eero__exp {
   font-style: normal;
   font-weight: normal;
   font-size: 42px;
   line-height: 48px;
   color: #ffffff;
+  display: flex;
+  margin-bottom: 20px;
 }
-.eero-about {
-  font-family: Roboto;
+.eero__about {
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
   line-height: 25px;
   color: #ffffff;
+  display: flex;
+  margin-bottom: 20px;
 }
-.eero-price {
-  font-family: Roboto;
+.eero__price {
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
   line-height: 25px;
   color: #ffffff;
+  display: flex;
+  margin-bottom: 36px;
+}
+.eero__price > span {
+  font-weight: bold;
+}
+.eero__link--shop-now {
+  display: block;
+  width: 220px;
+  height: 52px;
+  color: #ffffff;
+  background-color: #2468ff;
+  text-align: center;
+  padding-top: 17px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 14px;
+  letter-spacing: 0.11px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.eero__link-compare {
+  position: relative;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  display: block;
+  margin-top: 90px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 154px;
+  &::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    display: inline-block;
+    left: 0;
+    bottom: -5px;
+    background-color: #fff;
+    border-radius: 2px;
+  }
 }

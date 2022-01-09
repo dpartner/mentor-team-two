@@ -1,16 +1,21 @@
 .hero {
+  position: relative;
   height: 685px;
   width: 1440px;
   margin: auto;
 
   background-color: var(--secondary-background);
-  background-image: url("../images/hero.jpg");
+  background-image: url("../images/hero.jpg"); 
+  background-size: contain; 
+   
+
 
 @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
      background-image: url("../images/hero@2x.jpg");
     }
+
 
   background-repeat: no-repeat;
   background-position: top;
@@ -54,3 +59,20 @@ text-align: center;
   border: 1px solid var(--alternative-text-color);
 }
 
+.hero__modem {
+   position: absolute;
+   bottom: -50px;
+   left: 50%;
+   transform: translateX(-50%);
+   display: block;
+   width: 576px;
+   height: 324px;
+    background-image: url(../images/hero-modem.png);
+    background-size: contain;
+
+    @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+     background-image: url("../images/hero-modem@2x.png");
+    }
+  }

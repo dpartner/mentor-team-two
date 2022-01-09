@@ -1,18 +1,14 @@
+.explore {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: #fff;
+  text-align: center;
+}
+
 .link {
+  display: block;
   text-decoration: none;
-  display: block;
   outline: none;
-}
-
-.explore__link {
-  margin-bottom: 28px;
-}
-
-img {
-  display: block;
-  max-width: 100%;
-  height: auto;
-  margin-right: 0;
 }
 
 .pointer {
@@ -20,62 +16,62 @@ img {
 }
 
 .explore__pre-text {
-  font-family: Roboto;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 1.17;
-  text-align: center;
-  color: #404040;
   margin-bottom: 21px;
+  line-height: 1.17;
+}
+
+.explore__link {
+  margin-bottom: 28px;
+}
+
+.explore__img {
+  margin: 0 auto;
 }
 
 .explore__shop {
-  font-family: Roboto;
-  font-weight: 400;
+  margin-bottom: 120px;
+
+  padding: 5px;
+  border: none;
+  border-bottom: 1px solid var(--text-color);
+  background-color: #fff;
+
   font-size: 14px;
   line-height: 1.14;
-  text-align: center;
   text-transform: uppercase;
-  color: #404040;
-  text-decoration: underline;
-  margin-bottom: 120px;
 }
 
+.explore__info {
+  width: 730px;
+  margin-right: auto;
+  margin-left: auto;
+}
 .explore__title {
-  font-family: Roboto;
-  font-weight: 400;
-  font-size: 50px;
-  line-height: 1.2;
-  text-align: center;
-  color: #404040;
   margin-bottom: 44px;
 }
 
 .explore__text {
-  font-family: Roboto;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 1.4;
-  text-align: center;
-  color: #404040;
   margin-bottom: 78px;
 }
 
 .explore__button {
-  display: block;
-  min-width: 244px;
-  font-family: Roboto;
+  padding: 19px 37px;
   font-weight: 400;
-  font-size: 14px;
-  line-height: 1;
-  text-align: center;
-  letter-spacing: 0.11px;
-  text-transform: uppercase;
-  color: #ffffff;
-  background-color: #2468ff;
   border: 1px solid transparent;
 }
 
-// .explore {
-//   background-color: tomato;
-// }
+.explore_bg-image {
+  width: 928px;
+  height: 747px;
+  margin: auto;
+
+  background-image: url(../images/more_wifi.png);
+  background-color: #fff;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+    background-image: url('../images/more_wifi@2x.png');
+  }
+}
